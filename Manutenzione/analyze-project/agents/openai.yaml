@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analyze Project"
+  short_description: "Map architecture, stack, dependencies, and development risks"
+  default_prompt: "Analyze this project and produce the standard report."

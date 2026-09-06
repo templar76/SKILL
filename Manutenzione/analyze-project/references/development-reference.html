@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Development Reference</title>
+<style>:root{color-scheme:light dark;font:16px/1.55 system-ui,sans-serif}body{max-width:900px;margin:2rem auto;padding:0 1rem}table{border-collapse:collapse;width:100%}th,td{border:1px solid #8886;padding:.55rem;text-align:left;vertical-align:top}.callout{border-left:4px solid #6584ff;padding:.5rem 1rem;background:#6584ff18}</style></head>
+<body><h1>Development Reference</h1>
+<p class="callout">Human-facing companion to <code>development-rules.md</code>. Markdown remains the AI-readable source of truth.</p>
+<h2>Rule contract</h2><p>Every rule states scope, rationale, evidence, and enforcement mechanism.</p>
+<table><thead><tr><th>Category</th><th>Principle</th></tr></thead><tbody>
+<tr><td>Style</td><td>Follow configured formatter, linter, type checker, and nearby code.</td></tr>
+<tr><td>Testing</td><td>Test new behavior using the project's existing test level and command.</td></tr>
+<tr><td>Errors</td><td>Validate boundaries, preserve context, and make failures observable.</td></tr>
+<tr><td>Security</td><td>Keep secrets and personal data out of source and logs; validate untrusted input.</td></tr>
+<tr><td>Dependencies</td><td>Respect the package manager and lockfile; review changes deliberately.</td></tr>
+<tr><td>Architecture</td><td>Document ownership and allowed dependency direction; prevent cycles.</td></tr>
+<tr><td>Operations</td><td>Define health, observability, migration, and rollback expectations from evidence.</td></tr>
+<tr><td>Commits</td><td>Use the team convention when discoverable; otherwise record the decision needed.</td></tr>
+</tbody></table><h2>Decision labels</h2>
+<ul><li><strong>Existing:</strong> evidenced by config, docs, history, or repeated code.</li><li><strong>Recommended:</strong> proposed improvement with rationale and adoption cost.</li><li><strong>Decisions needed:</strong> unresolved team choice.</li></ul></body></html>
